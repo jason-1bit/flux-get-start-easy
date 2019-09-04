@@ -7,6 +7,8 @@ metadata:
     app: nginx
   annotations:
     fluxcd.io/tag.nginx: glob:prod-*
+    fluxcd.io/locked: 'true'
+    fluxcd.io/locked_user: jian.ma <jian.ma@okcoin.net>
 spec:
   replicas: 3
   selector:
