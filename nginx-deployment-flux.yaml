@@ -5,9 +5,6 @@ metadata:
   name: nginx-deployment
   labels:
     app: nginx
-  annotations:
-    fluxcd.io/locked_user: jian.ma <jian.ma@okcoin.net>
-    fluxcd.io/locked: 'true'
 spec:
   replicas: 3
   selector:
