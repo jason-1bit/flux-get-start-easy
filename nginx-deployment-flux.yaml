@@ -5,6 +5,8 @@ metadata:
   name: nginx-deployment
   labels:
     app: nginx
+  annotations:
+    fluxcd.io/tag.nginx: glob:prod-*
 spec:
   replicas: 3
   selector:
