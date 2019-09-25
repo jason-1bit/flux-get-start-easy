@@ -1,0 +1,1 @@
+{"jobID":"112106a0-fbb2-2c81-a627-1ea594be83ef","spec":{"type":"policy","cause":{"Message":"","User":"jian.ma@okcoin.net \u003cjian.ma@okcoin.net\u003e"},"spec":{"default:deployment/nginx-deployment":{"add":{},"remove":{"locked":"true","locked_msg":"true","locked_user":"true"}}}},"result":null}
