@@ -9,7 +9,6 @@ metadata:
     fluxcd.io/tag.nginx: glob:prod-*
     fluxcd.io/locked: 'true'
     fluxcd.io/locked_user: jian.ma <jian.ma@okcoin.net>
-    fluxcd.io/automated: 'true'
 spec:
   replicas: 2
   selector:
