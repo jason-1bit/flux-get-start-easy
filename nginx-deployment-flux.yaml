@@ -9,7 +9,7 @@ metadata:
     fluxcd.io/tag.nginx: glob:prod-*
     fluxcd.io/automated: 'true'
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: nginx
