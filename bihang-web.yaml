@@ -45,7 +45,7 @@ spec:
         envFrom:
         - configMapRef:
             name: springcloud-consistency-conf
-        image: harbor.okcoin-inc.com/okcoin/bihang-web:daily-0.0.3-07821a6
+        image: harbor.okcoin-inc.com/okcoin/bihang-web:master-c32553c
         imagePullPolicy: IfNotPresent
         livenessProbe:
           failureThreshold: 20
