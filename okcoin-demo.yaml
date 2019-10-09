@@ -5,7 +5,6 @@ metadata:
   annotations:
     deployment.kubernetes.io/revision: "3"
     field.cattle.io/creatorId: user-5spd8
-    fluxcd.io/automated: 'true'
   labels:
     cattle.io/creator: norman
     workload.user.cattle.io/workloadselector: deployment-okcoin-demo
@@ -13,7 +12,7 @@ metadata:
   namespace: test
 spec:
   progressDeadlineSeconds: 600
-  replicas: 2
+  replicas: 1
   revisionHistoryLimit: 10
   selector:
     matchLabels:
