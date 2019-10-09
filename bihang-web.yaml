@@ -11,8 +11,6 @@ metadata:
     app.okcoin.com/version: 2.0.0-SNAPSHOT
   name: bihang-web
   namespace: test
-  annotations:
-    fluxcd.io/automated: 'true'
 spec:
   progressDeadlineSeconds: 600
   replicas: 1
