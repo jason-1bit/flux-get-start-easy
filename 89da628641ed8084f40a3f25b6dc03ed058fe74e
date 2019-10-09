@@ -1,0 +1,1 @@
+{"jobID":"ac0794ff-33a2-cf74-9afc-083edd773964","spec":{"type":"policy","cause":{"Message":"","User":"jian.ma@okcoin.net \u003cjian.ma@okcoin.net\u003e"},"spec":{"test:deployment/okcoin-demo":{"add":{"automated":"true"},"remove":{}}}},"result":null}
