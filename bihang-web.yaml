@@ -30,7 +30,7 @@ spec:
         field.cattle.io/ports: '[[{"containerPort":8112,"dnsName":"bihang-web-","name":"8112tcp00","protocol":"TCP","sourcePort":0}]]'
       creationTimestamp: null
       labels:
-        app.okcoin.com/component: bihang-web
+        app.okcoin.com/name: bihang-web
     spec:
       containers:
       - env:
