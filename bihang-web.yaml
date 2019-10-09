@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
@@ -10,6 +11,8 @@ metadata:
     app.okcoin.com/version: 2.0.0-SNAPSHOT
   name: bihang-web
   namespace: test
+  annotations:
+    fluxcd.io/automated: 'true'
 spec:
   progressDeadlineSeconds: 600
   replicas: 1
@@ -27,7 +30,7 @@ spec:
       annotations:
         cattle.io/timestamp: 2019-04-17T11:03:54Z
         field.cattle.io/ports: '[[{"containerPort":8112,"dnsName":"bihang-web-","name":"8112tcp00","protocol":"TCP","sourcePort":0}]]'
-      creationTimestamp: null
+      creationTimestamp:
       labels:
         app.okcoin.com/name: bihang-web
     spec:
