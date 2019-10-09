@@ -1,0 +1,1 @@
+{"jobID":"69621143-1aa5-0ff2-ef9f-840724ee2e8d","spec":{"type":"policy","cause":{"Message":"","User":"jian.ma@okcoin.net \u003cjian.ma@okcoin.net\u003e"},"spec":{"test:deployment/bihang-web":{"add":{"automated":"true"},"remove":{}}}},"result":null}
