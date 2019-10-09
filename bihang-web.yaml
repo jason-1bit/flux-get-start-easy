@@ -1,7 +1,6 @@
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
-  annotations:
   labels:
     app.okcoin.com/component: bihang-web
     app.okcoin.com/group: default
