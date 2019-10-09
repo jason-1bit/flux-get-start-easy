@@ -1,9 +1,11 @@
+---
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
   annotations:
     deployment.kubernetes.io/revision: "3"
     field.cattle.io/creatorId: user-5spd8
+    fluxcd.io/automated: 'true'
   labels:
     cattle.io/creator: norman
     workload.user.cattle.io/workloadselector: deployment-okcoin-demo
@@ -25,7 +27,7 @@ spec:
     metadata:
       annotations:
         cattle.io/timestamp: 2019-07-15T02:34:01Z
-      creationTimestamp: null
+      creationTimestamp:
       labels:
         workload.user.cattle.io/workloadselector: deployment-okcoin-demo
     spec:
